@@ -1,5 +1,5 @@
 # Nombre del Proyecto
-![Logo del Proyecto](imagen/logo.png)
+![Logo del Proyecto](https://github.com/fivur/Challenge-AluraGeek/blob/master/imagen/logo.png)
 
 ## Descripción del Proyecto
 Este proyecto es **ALURA GEEK**, una aplicación web de gestión de productos que permite a los usuarios agregar, visualizar y eliminar productos de una lista. Cada producto incluye información clave como nombre, precio e imagen. Además, la aplicación almacena los productos en el localStorage, lo que permite que los datos se mantengan en el navegador incluso después de actualizar la página.
@@ -22,6 +22,8 @@ Este proyecto es **ALURA GEEK**, una aplicación web de gestión de productos qu
 Los usuarios pueden obtener ayuda sobre este proyecto contactando conmigo o revisando el código fuente para entender las funcionalidades. Asegúrate de revisar el archivo api.js y scripts.js para entender cómo funciona la conexión con la API y la manipulación de localStorage.
 ## Proyecto funcionando, productos agregados
 ![Otra Vista](https://github.com/fivur/Challenge-AluraGeek/blob/master/imagen/proyecto%202.png)
+
+## Recuerda todos los archivos estan en master no en main
 
 ## Autor
 Este proyecto fue desarrollado por **Faiver Augusto Clavijo Medina** como un ejercicio práctico de Front End: Challenge AluraGeek, para implementar CRUD (Crear, Leer, Actualizar, Eliminar) en una aplicación de front-end usando localStorage y JavaScript.
