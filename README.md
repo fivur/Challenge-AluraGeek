@@ -21,7 +21,7 @@ Este proyecto es **ALURA GEEK**, una aplicación web de gestión de productos qu
 ## Ayuda y Documentación
 Los usuarios pueden obtener ayuda sobre este proyecto contactando conmigo o revisando el código fuente para entender las funcionalidades. Asegúrate de revisar el archivo api.js y scripts.js para entender cómo funciona la conexión con la API y la manipulación de localStorage.
 ## Proyecto funcionando, productos agregados
-![Otra Vista](imagen/proyecto 2.png)
+![Otra Vista](https://github.com/fivur/Challenge-AluraGeek/blob/master/imagen/proyecto%202.png)
 
 ## Autores
 Este proyecto fue desarrollado por **Faiver Augusto Clavijo Medina** como un ejercicio práctico de Front End: Challenge AluraGeek, para implementar CRUD (Crear, Leer, Actualizar, Eliminar) en una aplicación de front-end usando localStorage y JavaScript.
