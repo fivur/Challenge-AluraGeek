@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/imagen/logo.png" alt="Logo de Alura Geek" class="logo">
+    </header>
+ 
+  
+        <main>
+            <section class="product-display">
+                <h1>Mis Productos</h1>
+                <!-- Mensaje cuando no hay productos -->
+                <p class="no-products-message" style="display: none;">No se han agregado productos</p>
+               
+                
+                <!-- Contenedor de productos -->
+                <div class="product-list"></div>
+
+            </section>
+        
+            <!-- Sección de formulario -->
+            <section class="form-section">
+                <h2>Agregar Producto</h2>
+                <form id="productForm">
+                   
+                    <input type="text" id="productName"  placeholder="Nombre del producto" required>
+                   
+                    <input type="number" id="productPrice" placeholder="Precio del producto" required>
+                    
+                    <input type="text" id="productImage"  placeholder="URL de la imagen" required>
+        
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </form>
+            </section>
+        </main>
+        
+    <footer>
+        <div class="footer-content">
+            <img src="/imagen/logo.png" alt="Logo de Alura Geek" class="logo">
+            <p>Proyecto de visualización de productos en tarjetas, donde cada producto se presenta con imagen, valor, 
+                descripción y un boton de borrar en una imagen.
+                Incluye formulario de registro de nuevos productos para facilitar la gestión.</p>
+            
+            <div class="socials">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="/imagen/facebook.png" alt="facebook" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="/imagen/twiter.png" alt="twitter" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="/imagen/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://www.linkedin.com/in/ingenieroabogado" target="_blank">
+                    <img src="/imagen/in.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 proyecto realizado  por Faiver Clavijo. Todos los derechos reservados.</p>
+        </div>
+        <!-- Pie de página aquí -->
+    </footer>
+  
+    <script src="requisiciones.js"></script>
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

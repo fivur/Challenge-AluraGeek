@@ -1,0 +1,274 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Producto 1",
+      "price": 100,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Producto 2",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "name": "Producto 3",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "name": "Producto 4",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "5",
+      "name": "Producto 5",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "6",
+      "name": "Producto 6",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "7",
+      "name": "Producto 7",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "8",
+      "name": "Producto 8",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "9",
+      "name": "Producto 9",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "10",
+      "name": "Producto 10",
+      "price": 200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "f9ac",
+      "name": "zapatos",
+      "price": "70.000",
+      "image": "https://www.hendz.co/wp-content/uploads/2020/10/zapatos-deportivos-en-cuero-hendz.jpg"
+    },
+    {
+      "id": "e364",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_852453-MCO42141221617_062020-O.webp"
+    },
+    {
+      "id": "170b",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://www.hendz.co/wp-content/uploads/2020/10/zapatos-deportivos-en-cuero-hendz.jpg"
+    },
+    {
+      "id": "6b72",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_852453-MCO42141221617_062020-O.webp"
+    },
+    {
+      "id": "be1e",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fonboardsk8.com%2Fproducto%2Fzapatos-vans-skate-old-skool-black-white%2F&psig=AOvVaw1Sg8YUQKwz48GqlRJ5YLoA&ust=1730401911763000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJicrcvntokDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "3d53",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://www.hendz.co/wp-content/uploads/2020/10/zapatos-deportivos-en-cuero-hendz.jpg"
+    },
+    {
+      "id": "0b32",
+      "name": "zapatos",
+      "price": "70.000",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fonboardsk8.com%2Fproducto%2Fzapatos-vans-skate-old-skool-black-white%2F&psig=AOvVaw1Sg8YUQKwz48GqlRJ5YLoA&ust=1730401911763000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJicrcvntokDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "be3a",
+      "name": "zapatos",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_852453-MCO42141221617_062020-O.webp"
+    },
+    {
+      "id": "0358",
+      "name": "Zapato para dama",
+      "price": "200.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "3861",
+      "name": "zapatos",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "b40d",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "e5ac",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "b33e",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "534c",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "e3ef",
+      "name": "zapatos",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "c272",
+      "name": "Zapato para dama",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "58b6",
+      "name": "Zapato para dama",
+      "price": "200.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "5d4c",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "20fe",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "8840",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "18b3",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "36cb",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "e950",
+      "name": "flores elegantes",
+      "price": "10000",
+      "image": "Foto de Unchalee  Srirugsar  de Pexels: https://www.pexels.com/es-es/foto/flor-de-petalos-de-color-rosa-rojo-amarillo-en-primer-plano-85773/"
+    },
+    {
+      "id": "4dd0",
+      "name": "Zapato para dama",
+      "price": "70.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "3697",
+      "name": "Zapatos de caballero",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "b243",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://i.pinimg.com/originals/64/ca/54/64ca54f7123914737831f4ee593e4cf4.jpg"
+    },
+    {
+      "id": "84a9",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://www.hendz.co/wp-content/uploads/2020/10/zapatos-deportivos-en-cuero-hendz.jpg"
+    },
+    {
+      "id": "a6d5",
+      "name": "Zapato para dama",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "9295",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "6461",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://www.corzocueros.com/wp-content/uploads/2020/06/015C565w.jpg"
+    },
+    {
+      "id": "9977",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "5f38",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "68ce",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "db82",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    },
+    {
+      "id": "8562",
+      "name": "Zapatos deportivos ",
+      "price": "70.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_970719-MCO41747186420_052020-O.webp"
+    }
+  ]
+}

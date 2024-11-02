@@ -1,0 +1,272 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #394750;
+    color: #fff;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 20px;
+    flex: 1; /* Permite que el main tome el espacio disponible */
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Cambia a disposición de columna */
+    }
+    .product-display, .form-section {
+        width: 100%; /* Asegura que las secciones ocupen el 100% del ancho */
+    }
+}
+
+
+/* Product section */
+.product-display {
+    flex: 3;
+    max-height: none;
+    overflow-y: visible;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.product-display h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.no-products-message {
+    color: #888;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Se adapta automáticamente */
+    gap: 10px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    text-align: center;
+    height: 340px; /* Fija la altura de la tarjeta */
+}
+
+.product-item img {
+    max-width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 200px;  /* Fija la altura de la imagen */
+    object-fit:contain; /* Recorta la imagen para que mantenga la proporción y ocupe el contenedor */
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Opcional: color de fondo para relleno */
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.product-item p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.product-item button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto; /* Esto empuja el botón hacia la parte inferior */
+    
+}
+
+
+.delete-product:hover {
+    background-color: #ff4d4d; /* Fondo un poco más oscuro en hover */
+    transform: scale(1.1); /* Aumenta el tamaño en hover */
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px; /* Establecer una altura máxima */
+    overflow-y: auto; /* Permitir desplazamiento si el contenido excede la altura */
+}
+
+.form-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    color: #555;
+}
+
+form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Suaviza la transición al hacer hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    
+}
+
+/* Estilo específico para el botón de enviar */
+form button[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+}
+form button[type="submit"]:hover {
+    background-color: #45a049; /* Color de fondo más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevar el botón */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más profunda al hacer hover */
+}
+
+
+/* Estilo para botón de Limpiar */
+form button[type="reset"] {
+    background-color: #f44336; /* Color de fondo rojo */
+    color: white;
+}
+
+form button[type="reset"]:hover {
+    background-color: #d32f2f; /* Color de fondo más oscuro en hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.delete-product {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Ajusta el tamaño del botón */
+    height: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.delete-product img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    display: block;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #394750;
+    color: #fff;
+    margin-top: 20px; 
+}
+
+.footer-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #aaa;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials a {
+    color: #f1f1f1;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}
+
+.footer-bottom {
+    padding: 5px 0;
+    font-size: 12px;
+    color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas para pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list {
+        grid-template-columns: 1fr; /* Una columna para pantallas muy pequeñas */
+    }
+}
