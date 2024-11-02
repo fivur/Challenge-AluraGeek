@@ -15,12 +15,13 @@ Este proyecto es **ALURA GEEK**, una aplicación web de gestión de productos qu
 3. Los productos se mostrarán en la lista con sus detalles y un botón de eliminación.
 4. Para eliminar un producto, haz clic en el botón de eliminación junto al producto deseado.
 
-## Imágenes del Proyecto
-![Vista del Producto](Challenge-AluraGeek/imagen/PROYECTO1.png)
-![Otra Vista](imagen/proyecto 2.png)
+## Imágen del Proyecto
+![Vista del Producto](https://github.com/fivur/Challenge-AluraGeek/blob/master/imagen/PROYECTO%201.png)
 
 ## Ayuda y Documentación
 Los usuarios pueden obtener ayuda sobre este proyecto contactando conmigo o revisando el código fuente para entender las funcionalidades. Asegúrate de revisar el archivo api.js y scripts.js para entender cómo funciona la conexión con la API y la manipulación de localStorage.
+## Proyecto funcionando, productos agregados
+![Otra Vista](https://github.com/fivur/Challenge-AluraGeek/blob/master/imagen/proyecto%202.png)
 
-## Autores
+## Autor
 Este proyecto fue desarrollado por **Faiver Augusto Clavijo Medina** como un ejercicio práctico de Front End: Challenge AluraGeek, para implementar CRUD (Crear, Leer, Actualizar, Eliminar) en una aplicación de front-end usando localStorage y JavaScript.
